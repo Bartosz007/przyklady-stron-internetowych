@@ -1,0 +1,85 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>HTML/CSS</title>
+<meta charset="UTF-8"/>
+<meta name="author" content="Bartosz Krawczyk"/>
+<meta name="generator" content="Notepad++"/>
+<meta name="desription" content="strona,drugiepolrocze,html"/>
+<link rel="stylesheet" href="../arkusze/arkuszpd.css"/>
+<style>
+#slajder img{
+margin-top:60px;
+margin-left:10px;
+}
+span{
+font-weight:bold;
+}
+pre{
+font-size:20px;
+margin-top:30px;
+}
+</style>
+</head>
+<body>
+	<div id="strona">
+		<header>
+			<div id="logo">
+				<img src="../obrazki/logo.png" alt ="logo"/>
+			</div>
+			<div id="napis">
+				<h1>Dziedziczenie</h1>
+				
+			</div>
+		</header>
+		
+		<div id="srodek">
+			<div id="slajder">
+				<img src="obrazy/dziedziczenie.jpg" alt="galeria"/>
+			</div>
+			
+			<div id="menu">
+				<ul>
+					<li><a href="../index.html">Główna</a></li>
+					<li><a href="../menu.html">Menu</a></li>
+					<li><a href="../anes.html">Anes</a></li>
+					<li><a href="../kontakt.html">O mnie</a></li>
+				</ul>
+			</div>
+			
+			<div id="tresc">
+				<div class="tre">
+					<pre>
+<span>Dziedziczenie</span> - proces w którym właściwości CSS jednego znacznika 
+przechodzą na inne zagnieżdżone w nim znaczniki
+<span>Ogólne reguły:</span>
+Dziedziczeniu nie podlegają właściwości dotyczące:
+położenia na stronie, marginesów, dopełnień, obramowań
+Precyzja, który styl weźmie górę
+-selektor znacznika waga:1
+-selektor klasy waga:10
+-selektor identyfikatora waga:100
+-selektor lokalny waga:1000
+Ignorujemy precyzję wpisując !important
+W przypadku gdy dwa style mają tą samą precyzję, wybierany
+jest ten ostatni.
+					</pre>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div id="mediasp">
+				<a href="https://www.facebook.com"><img src="../obrazki/fb.png" alt="fb"/></a>
+				<a href="https://www.facebook.com"><img src="../obrazki/twi.png" alt="twitter"/></a>
+				<a href="https://www.facebook.com"><img src="../obrazki/yt.png" alt="youtube"/></a>
+				<a href="https://www.facebook.com"><img src="../obrazki/snap.png" alt="snapchat"/></a>
+			</div>
+			<div id="tstopka">
+				<h2>copyright&#169;BK 2016 </h2>
+			</div>
+		</footer>
+	
+	</div>
+</body>
+</html>

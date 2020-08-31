@@ -1,0 +1,135 @@
+*
+{
+	font-family:"Palatino Linotype";
+}
+body
+{
+	background-image:url('tlo1.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+/*_______________________________________________________________________________________________________________________*/
+#okno
+{
+	margin:0;
+	width:100%;
+	margin:0 auto;
+	padding-right:200px;
+}
+/*_______________________________________________________________________________________________________________________*/
+header
+{
+	overflow:hidden;
+}
+header ul
+{
+	float:right;
+}
+header a
+{
+	color:#1a1a1a;
+	font-size:28px;
+	text-decoration:none;
+	background-color:#F74311;
+	padding:20px 12px 20px 12px;
+}
+header a:hover
+{
+	color:#F74311;
+	background-color:#1a1a1a;
+}
+header li
+{
+	list-style-type:none;
+	float:left;
+}
+#ahed a
+{
+	font-size:40px;
+	font-weight:bold;
+}
+#ahed
+{
+	padding-right:250px;
+}
+/*_______________________________________________________________________________________________________________________*/
+#sro  p,h1
+{
+	color:#F74311;
+	font-weight:bold;
+}
+/*_______________________________________________________________________________________________________________________*/
+#sro
+{
+	padding-left:100px;
+	
+}
+#obrazki
+{
+	padding-top:40px;
+	padding-bottom:150px;
+}
+#css
+{
+	padding-left:190px;
+	height:440px;
+	width:387px;
+}
+#html
+{
+	padding-left:170px;
+	height:440px;
+	width:520px;
+}
+#text
+{
+	width: 80%;
+	margin:0 auto;
+	text-align:center;
+	padding-left:50px;
+}
+h1
+{
+	font-size:60px;
+}
+#text p
+{
+	font-size:35px;
+}
+/*_______________________________________________________________________________________________________________________*/
+footer
+{
+	padding-top:15px;
+	margin-left:200px;
+	border-top:2px solid #F74311;
+	clear:both;
+	overflow:hidden;
+	height:50px;
+}
+footer a
+{	
+	color:#1a1a1a;
+	font-size:19px;
+	text-decoration:none;
+	background-color:#F74311;
+	padding:10px 6px 10px 6px;
+}
+footer a:hover
+{
+	color:#F74311;
+	background-color:#1a1a1a;
+}
+footer li
+{
+	list-style-type:none;
+	float:left;
+}
+#afot 
+{
+	padding-left:450px;
+}
+/*_______________________________________________________________________________________________________________________*/
+
+
+
